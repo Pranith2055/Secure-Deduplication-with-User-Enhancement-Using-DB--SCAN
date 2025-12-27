@@ -1,0 +1,52 @@
+
+Apr 28, 2025 12:38:09.45 NEW SESSION
+Apr 28, 2025 12:38:09.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 28, 2025 12:38:09.48 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Apr 28, 2025 12:38:15.59 [29040:14816:0428/123815.598:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 28, 2025 12:38:23.24 [29040:14816:0428/123823.248:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 28, 2025 12:38:41.25 [29040:27112:0428/123841.259:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CONNECTION_RESET)
+Apr 28, 2025 12:38:43.97 [29040:14816:0428/123843.979:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 28, 2025 12:39:08.95 [29040:14816:0428/123908.955:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 28, 2025 12:40:05.37 [29040:14816:0428/124005.377:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 28, 2025 12:41:44.61 [29040:14816:0428/124144.617:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 28, 2025 12:42:19.48 [29040:14816:0428/124219.489:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Apr 28, 2025 12:44:50.93 [29040:14816:0428/124450.930:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 28, 2025 12:51:55.19 [29040:14816:0428/125155.181:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Apr 28, 2025 13:06:58.75 [29040:14144:0428/130658.650:ERROR:service_worker_task_queue.cc(197)] DidStartWorkerFail gpdjojdkbbmdfjfahjcgigfpmkopogic: 14
+Apr 28, 2025 14:15:09.20 [29040:14816:0428/141509.187:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 28, 2025 14:15:09.22 [29040:14816:0428/141509.191:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 28, 2025 20:16:39.66 [29040:24512:0428/201639.664:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+Apr 29, 2025 07:02:11.23 [29040:14816:0429/070211.232:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2025 07:02:11.40 [29040:25008:0429/070211.406:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 29, 2025 07:02:22.04 [29040:14816:0429/070222.012:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 29, 2025 07:02:24.41 [29040:14144:0429/070224.413:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 29, 2025 07:02:36.83 Client requested cancel during Invoke()
+Apr 29, 2025 07:02:49.17 [29040:14816:0429/070249.179:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 29, 2025 07:03:38.16 [29040:14816:0429/070338.164:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Apr 29, 2025 07:03:53.32 [29040:14816:0429/070353.327:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Apr 29, 2025 07:51:19.77 [29040:14816:0429/075119.685:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -1
+Apr 29, 2025 07:51:20.10 [29040:14816:0429/075120.103:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Apr 29, 2025 07:51:20.16 [29040:14816:0429/075120.164:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 30, 2025 10:19:03.36 [29040:25008:0430/101903.168:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+Apr 30, 2025 10:19:08.21 [29040:14816:0430/101908.175:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 30, 2025 10:19:10.16 [29040:14816:0430/101910.158:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+
+May 31, 2025 11:37:36.12 NEW SESSION
+May 31, 2025 11:37:36.12 [11632:11636:0531/113736.118:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 31, 2025 11:37:36.12 [11632:14036:0531/113736.121:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 31, 2025 11:37:36.38 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+May 31, 2025 11:37:36.39 I0000 00:00:1748671656.386453   18068 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+May 31, 2025 11:37:38.50 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 31, 2025 11:37:38.54 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 31, 2025 11:38:00.57 [11632:14036:0531/113800.573:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 31, 2025 11:38:07.01 [11632:11636:0531/113807.018:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:62] OnGetTokenFailure: Connection failed (-106).
+May 31, 2025 11:38:43.81 [14912:20500:0531/113843.813:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 31, 2025 11:38:43.81 [14912:19236:0531/113843.815:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 31, 2025 11:38:43.82 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+May 31, 2025 11:38:43.82 I0000 00:00:1748671723.828656   14480 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+May 31, 2025 11:38:43.98 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 31, 2025 11:38:43.99 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 31, 2025 12:08:20.33 [14912:19236:0531/120820.332:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 31, 2025 12:08:30.53 [14912:19236:0531/120830.535:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+May 31, 2025 12:09:11.70 [14912:19236:0531/120911.691:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 31, 2025 12:10:37.63 [14912:19236:0531/121037.519:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT

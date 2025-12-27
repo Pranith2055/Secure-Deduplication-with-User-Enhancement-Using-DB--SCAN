@@ -1,0 +1,18 @@
+MJBC04-2024
+STEP 1:USER
+Register with 2 user details
+Step 2: User 1 Login with details
+File Upload we can upload with keyword and .Txt format
+[If we upload a same files keywords and same multiple times it cannot store it can be a duplicate file]
+Step 3: User 2 Login with details
+Search with a keywordsend Request
+Step 4: Service Provider
+User id & Password: ServiceProvider
+File RequestApprove
+Step 5: User 2 Login with details
+View Keyview
+Tomcat 9 version
+
+
+
+

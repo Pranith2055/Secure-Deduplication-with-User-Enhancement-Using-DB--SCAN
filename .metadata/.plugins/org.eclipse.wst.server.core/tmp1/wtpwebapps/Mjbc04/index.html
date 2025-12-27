@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Deduplication Arena</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            color: #00ffee;
+            font-family: 'Orbitron', sans-serif;
+            overflow-x: hidden;
+        }
+
+        nav {
+            background: #000000dd;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 2px solid #00ffee44;
+            box-shadow: 0 2px 10px #00ffee22;
+        }
+
+        nav a {
+            color: #00ffee;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            left: 0;
+            bottom: -5px;
+            background: #00ffee;
+            transition: 0.4s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            height: 100vh;
+            background: radial-gradient(circle, rgba(0,255,255,0.1) 0%, rgba(0,0,0,0.9) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 0 0 20px #00ffee;
+            animation: glow 2s infinite alternate;
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 1.2em;
+            color: #c0ffff;
+            margin-top: 20px;
+            line-height: 1.6em;
+        }
+
+        .circuits {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(90deg, transparent, transparent 50px, #00333333 50px, #00333333 52px);
+            pointer-events: none;
+            z-index: -1;
+            animation: flow 10s linear infinite;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #00ffee; }
+            to { text-shadow: 0 0 30px #00ffee; }
+        }
+
+        @keyframes flow {
+            0% { background-position: 0 0; }
+            100% { background-position: 1000px 0; }
+        }
+
+        .info-panel {
+            margin-top: 60px;
+            background: rgba(0, 255, 255, 0.05);
+            padding: 20px 30px;
+            border: 1px solid #00ffee;
+            border-radius: 10px;
+            max-width: 700px;
+            box-shadow: 0 0 20px #00ffee33;
+        }
+
+        .info-panel h2 {
+            margin-bottom: 15px;
+            text-shadow: 0 0 5px #00ffee;
+        }
+
+        .terminal {
+            font-family: monospace;
+            background-color: #001f1f;
+            color: #00ffcc;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid #00ffee;
+            animation: typing 4s steps(40) 1;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION BAR -->
+<nav>
+    <a href="SP.jsp">Service Provider</a>
+    <a href="login.jsp">User Login</a>
+    <a href="Register.jsp">Register</a>
+</nav>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="circuits"></div>
+    <h1>Welcome to the Data Sync Arena</h1>
+    <p>Where every file you upload is instantly scanned, hashed, and compared with billions of others. Duplicates are rejected. Originals are encrypted and locked in a digital vault.</p>
+
+    <div class="info-panel">
+        <h2>How Deduplication Works:</h2>
+        <div class="terminal">
+            > Scanning file... <br>
+            > Generating SHA-256 fingerprint... <br>
+            > Comparing with 1,234,567 stored hashes... <br>
+            > Duplicate detected! Skipping storage.<br>
+            > File linked to your profile.
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 | Quantum Dedup Vault | All Rights Reserved
+</footer>
+
+</body>
+</html>
